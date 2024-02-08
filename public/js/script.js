@@ -24,7 +24,7 @@ let clicks = 0;
 no_button.addEventListener('click', () => {
     // Change banner source
     let banner = document.getElementById('banner');
-    if (clicks === 0) banner.src = "images/no.gif";
+    if (clicks === 0) banner.src = "https://aayushnet.tech/jokes/images/no.gif";
     clicks++;
     // increase button height and width gradually to 250px
     const sizes = [40, 50, 30, 35, 45]
